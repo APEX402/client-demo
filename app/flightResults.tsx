@@ -89,7 +89,7 @@ const FlightResults = () => {
           arrival="20:10 PM (Dubai Intl)"
           duration="6h 30m"
           price="£579 (Promo Fare)"
-          merchantUrl="https://www.emirates.com/"
+          merchantUrl="https://merchant-demo-five.vercel.app/"
           sponsored={true}
           recommended={true}
         />
