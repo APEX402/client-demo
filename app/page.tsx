@@ -63,7 +63,7 @@ export default function Home() {
 
   // Replace this with a real API call (e.g. to OpenAI, your own route, etc.)
   async function fakeAiReply(prompt: string): Promise<ReactNode> {
-    await new Promise((r) => setTimeout(r, 500));
+    await new Promise((r) => setTimeout(r, 1000));
     return <FlightResults />;
   }
 
